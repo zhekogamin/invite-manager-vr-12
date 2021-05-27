@@ -29,7 +29,7 @@ JANO.login("Nzk0NDYwNTE1MzE3MTg2NTcw.X-7JAw.XgUCLYFjStalUTdr2aCZOIQY-NI");
 JANO.on("ready", async () => {
   console.log(`Logged in as ${JANO.user.username}!`);
   JANO.user.setStatus("ONLINE");
-  JANO.user.setActivity(`j!help`, { type: "WATCHING" });
+  JANO.user.setActivity(`j!help ZHEKO UP `, { type: "WATCHING" });
   JANO.guilds.cache.forEach(g => {
     if (g.member(JANO.user).hasPermission("ADMINISTRATOR")) {
       g.fetchInvites().then(guildInvites => {});
